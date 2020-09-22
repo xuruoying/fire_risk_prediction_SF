@@ -47,3 +47,4 @@ data/SF_registered_business/registered-business-locations-san-francisco.csv
 data/SF_registered_business/socrata_metadata.json
 data/SF_registered_business/TTX-0013_DataDictionary_registered-businesses.xlsx
 data/SF_parcel_lu/sf_parcel.geojson
+df_alpha.csv
