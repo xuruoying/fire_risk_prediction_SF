@@ -1,50 +1,21 @@
 
-data/cal fire hazard zone/fhszs06_3.dbf
-data/cal fire hazard zone/fhszs06_3.lyr
-data/cal fire hazard zone/fhszs06_3.prj
-data/cal fire hazard zone/fhszs06_3.sbn
-data/cal fire hazard zone/fhszs06_3.sbx
-data/cal fire hazard zone/fhszs06_3.shp
-data/cal fire hazard zone/fhszs06_3.shp.xml
-data/cal fire hazard zone/fhszs06_3.shx
-data/crime/ca_county_agency_contextual_indicators_2009-2014_05-03-2016.csv
-data/crime/Crimes-Clear-Arson Context_062119.pdf
-data/crime/Crimes_and_Clearances_with_Arson-1985-2019.csv
-data/crime/Hate Crime Context_062419.pdf
-data/crime/Hate-2001-2019-0.csv
-data/crime/URSUS 2019 Context_07012020.pdf
-data/crime/URSUS_Civilian-Officer_2019.csv
-data/crime/URSUS_Incident_2019.csv
-data/crime/VCASC2000-2019.csv
-data/FIR-0001_DataDictionary_fire-incidents.xlsx
-data/Fire_Incidents_SF.csv
-data/mapdataall.csv
 data/Police_Department_Incident_Reports__2018_to_Present.csv
 data/Police_Department_Incident_Reports__Historical_2003_to_May_2018.csv
-data/residential_nonresidential_fire_loss_estimates.xlsx
-data/SF_building_permit/Building_Permits.csv
-data/SF_building_permit/DataDictionaryBuildingPermit.xlsx
-data/SF_fire_data/FIR-0001_DataDictionary_fire-incidents.xlsx
-data/SF_fire_data/FIR-0003_DataDictionary_fire-inspections.xlsx
-data/SF_fire_data/FIR-0004_DataDictionary_fire-complaints.xlsx
-data/SF_fire_data/FIR-0005_DataDictionary_fire-permits.xlsx
-data/SF_fire_data/FIR-0006_DataDictionary_fire-violations.xlsx
-data/SF_fire_data/fire-incidents.csv
-data/SF_fire_data/fire-inspections.csv
-data/SF_fire_data/fire-permits.csv
-data/SF_fire_data/fire-safety-complaints.csv
-data/SF_fire_data/fire-violations.csv
-data/SF_fire_data/socrata_metadata_fire-incidents.json
-data/SF_fire_data/socrata_metadata_fire-inspections.json
-data/SF_fire_data/socrata_metadata_fire-permits.json
-data/SF_fire_data/socrata_metadata_fire-safety-complaints.json
-data/SF_fire_data/socrata_metadata_fire-violations.json
-data/SF_parcel_lu/geo_export_14e33dfd-bb6a-44b7-be66-baafb1d9794b.dbf
-data/SF_parcel_lu/geo_export_14e33dfd-bb6a-44b7-be66-baafb1d9794b.prj
-data/SF_parcel_lu/geo_export_14e33dfd-bb6a-44b7-be66-baafb1d9794b.shp
-data/SF_parcel_lu/geo_export_14e33dfd-bb6a-44b7-be66-baafb1d9794b.shx
-data/SF_registered_business/registered-business-locations-san-francisco.csv
-data/SF_registered_business/socrata_metadata.json
-data/SF_registered_business/TTX-0013_DataDictionary_registered-businesses.xlsx
-data/SF_parcel_lu/sf_parcel.geojson
-df_alpha.csv
+data/SF_building_permit/Building_Permits_on_or_after_January_1__2013.csv
+data/SF_fire_data/Fire Safety Complaints.geojson
+data/SF_parcel_lu/Land Use.geojson
+us_fire_loss_data_sets_2008-2017.xlsx
+.ipynb_checkpoints/simple_analysis-checkpoint.ipynb
+data/Fire_Incidents_SF.csv
+*.csv
+data/SF_parcel_lu/SF_landuse.geojson
+.ipynb_checkpoints/simple_analysis_SWv1-checkpoint.ipynb
+data_munging.ipynb
+data_munging_SWv1.ipynb
+simple_analysis.ipynb
+data_munging.ipynb
+simple_analysis_SWv1.ipynb
+simple_analysis.ipynb
+data_munging.ipynb
+simple_analysis.ipynb
+data_munging.ipynb
