@@ -15,8 +15,8 @@ from PIL import Image
 # Swagger(app)
 
 # import model pickle
-pickle_in = open("classifier.pkl", "rb")
-classifier = pickle.load(pickle_in)
+pickle_in = open("premitive_model.pkl", "rb")
+prediction_model = pickle.load(pickle_in)
 
 
 # @app.route('/')
@@ -25,7 +25,7 @@ def welcome():
 
 
 # @app.route('/predict',methods=["Get"])
-def predict_note_authentication(variance, skewness, curtosis, entropy):
+def predict_fire_risk(yrbuilt, total_sqft, total_sqft_used, cie, mips, visitors, pdr, retail, med, resunits):
     """Let's Authenticate the Banks Note
     This is using docstrings for specifications.
     ---
@@ -50,9 +50,11 @@ def predict_note_authentication(variance, skewness, curtosis, entropy):
         200:
             description: The output values
 
+            'yrbuilt','bldgsqft','total_uses','cie','mips','visitor', 'pdr', 'retail', 'med','resunits'
+            yrbuilt, total_sqft, total_sqft_used, cie, mips, visitors, pdr, retail, med, resunits
     """
 
-    prediction = classifier.predict([[variance, skewness, curtosis, entropy]])
+    prediction = prediction_model.predict([[yrbuilt, total_sqft, total_sqft_used, cie, mips, visitors, pdr, retail, med, resunits]])
     print(prediction)
     return prediction
 
@@ -65,14 +67,22 @@ def main():
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
-    variance = st.text_input("Variance", "Type Here")
-    skewness = st.text_input("skewness", "Type Here")
-    curtosis = st.text_input("curtosis", "Type Here")
-    entropy = st.text_input("entropy", "Type Here")
+    yrbuilt = st.text_input("Year built", "Type Here")
+    total_sqft = st.text_input("total building area, sqft", "Type Here")
+    total_sqft_used = st.text_input("all business sqft", "Type Here")
+    cie = st.text_input("school and institution, sqft", "Type Here")
+    mips = st.text_input("general office, sqft", "Type Here")
+    visitors = st.text_input("hotel sqft", "Type Here")
+    pdr = st.text_input("industrial and production, sqft", "Type Here")
+    retail = st.text_input("retail sqft", "Type Here")
+    med = st.text_input("medical sqft", "Type Here")
+    resunits = st.text_input("number of residential units", "Type Here")
+
     result = ""
     if st.button("Predict"):
-        result = predict_note_authentication(variance, skewness, curtosis, entropy)
+        result = predict_fire_risk(yrbuilt, total_sqft, total_sqft_used, cie, mips, visitors, pdr, retail, med, resunits)
     st.success('The output is {}'.format(result))
+
     if st.button("About"):
         st.text("MVP version")
         st.text("Built with Streamlit")
