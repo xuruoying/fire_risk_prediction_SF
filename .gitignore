@@ -63,3 +63,25 @@ data/fire_others/cal fire hazard zone/fhszs06_3.shp.xml
 data/fire_others/cal fire hazard zone/fhszs06_3.shx
 data/fire_others/residential_nonresidential_fire_loss_estimates.xlsx
 RC_model_internal.sav
+app/my_streamlit_key.pem
+app/streamlit-light-leaflet-master/demo.gif
+app/streamlit-light-leaflet-master/how to run.txt
+app/streamlit-light-leaflet-master/LICENSE
+app/streamlit-light-leaflet-master/MANIFEST.in
+app/streamlit-light-leaflet-master/my_component/__init__.py
+app/streamlit-light-leaflet-master/my_component/frontend/.env
+app/streamlit-light-leaflet-master/my_component/frontend/.prettierrc
+app/streamlit-light-leaflet-master/my_component/frontend/package.json
+app/streamlit-light-leaflet-master/my_component/frontend/public/index.html
+app/streamlit-light-leaflet-master/my_component/frontend/src/index.tsx
+app/streamlit-light-leaflet-master/my_component/frontend/src/react-app-env.d.ts
+app/streamlit-light-leaflet-master/my_component/frontend/src/streamlit/ArrowTable.ts
+app/streamlit-light-leaflet-master/my_component/frontend/src/streamlit/index.tsx
+app/streamlit-light-leaflet-master/my_component/frontend/src/streamlit/streamlit.ts
+app/streamlit-light-leaflet-master/my_component/frontend/tsconfig.json
+app/streamlit-light-leaflet-master/my_component/my_streamlit_key.pem
+app/streamlit-light-leaflet-master/my_component/premitive_model.pkl
+app/streamlit-light-leaflet-master/README.md
+app/streamlit-light-leaflet-master/setup.py
+AOC_Internal_fire_RF_ROC.png
+AOC_Internal_fire_XGBOOST_ROC.png
