@@ -71,41 +71,6 @@ def closest(data, input_num):
     return min(data, key=lambda p: distance(input_num['lat'],input_num['lng'],p['lat'],p['lng']))
 
 
-# @app.route('/predict',methods=["Get"])
-def predict_fire_risk(yrbuilt, bldgsqft, total_uses, resunits, other_crime_count, prop_tenure_1, fire_count_last_year, year):
-    """Let's Authenticate the Banks Note
-    This is using docstrings for specifications.
-    ---
-    parameters:
-      - name: variance
-        in: query
-        type: number
-        required: true
-      - name: skewness
-        in: query
-        type: number
-        required: true
-      - name: curtosis
-        in: query
-        type: number
-        required: true
-      - name: entropy
-        in: query
-        type: number
-        required: true
-    responses:
-        200:
-            description: The output values
-
-            'yrbuilt','bldgsqft','total_uses','cie','mips','visitor', 'pdr', 'retail', 'med','resunits'
-            yrbuilt, total_sqft, total_sqft_used, cie, mips, visitors, pdr, retail, med, resunits
-            yrbuilt, bldgsqft, total_uses, resunits, other_crime_count, prop_tenure_1, fire_count_last_year, year
-    """
-
-    prediction = prediction_model.predict([[yrbuilt, bldgsqft, total_uses, resunits, other_crime_count, prop_tenure_1, fire_count_last_year, year]])
-    print(prediction)
-    return prediction
-
 def main():
 
     html_temp = """
