@@ -7,9 +7,9 @@ The app's user interface is as follows.
 ![Quickstart Success](app_gif.gif)
 
 ## Sumamry
-Built an app that allows insurance companies and city governments to predict a building’s fire risk based on occupancy, year, and location
-Used XGBoost and up-weighting positive cases (as only 3% of the buildings experienced fire)
-Increased performance by 50% - 100% from current industry standard
+- 1. Built an app that allows insurance companies and city governments to predict a building’s fire risk based on occupancy, year, and location
+- 2. Used XGBoost and up-weighting positive cases (as only 3% of the buildings experienced fire)
+- 3. Increased performance by 300% - 500% from current industry standard
 
 
 ## Data
